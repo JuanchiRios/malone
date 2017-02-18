@@ -1,0 +1,43 @@
+{
+  "name": "malone",
+  "version": "1.0.0",
+  "description": "React html email sender",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run production | npm run dev",
+    "production": "webpack -p",
+    "dev": "webpack-dev-server --hot -d --progress --colors --port 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanchiRios/malone.git"
+  },
+  "author": "Juan Rios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanchiRios/malone/issues"
+  },
+  "homepage": "https://github.com/JuanchiRios/malone#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "jsx-loader": "^0.13.2",
+    "node-sass": "^4.5.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-hot-loader": "^1.3.1",
+    "sass-loader": "^6.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "dependencies": {
+    "babel-loader": "^6.3.2"
+  }
+}
