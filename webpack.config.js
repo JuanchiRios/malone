@@ -44,6 +44,10 @@ module.exports = {
     },
     plugins: [
         ExtractSass
-    ]
-}
-;
+    ],
+    resolve: {
+        alias: {
+            "react/lib/DOMProperty": "react-dom/lib/DOMProperty"
+        }
+    }
+};
